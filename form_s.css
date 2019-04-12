@@ -1,0 +1,82 @@
+
+ .form{
+  
+  margin: auto;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  padding: 20px;
+  color:cyan ;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top:50%;
+  left: 50%;
+}
+
+.form h2{
+  text-align: center;
+}
+
+ .form input[type=text],input[type=password],input[type=email],input[type=date],
+ input[type=number],input[type=file],select{
+  width: 94%;
+  box-sizing: border-box;
+  padding: 12px 10px;
+  background: rgba(0,0,0,0);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid ;
+  color: cyan;
+  border-radius: 0px;
+  margin: 5px;
+  font-weight: bold;
+ }
+
+ .form input[type=submit],input[type=reset]{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: #60adde;
+  opacity: 0.7;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+ }
+ .form input[type=submit]:hover{
+  background: gray;
+  opacity: 0.7;
+ }
+ .form input[type=reset]:hover{
+  background: gray;
+  opacity: 0.7;
+ }
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
